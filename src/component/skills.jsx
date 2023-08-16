@@ -51,7 +51,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        {/* ... add more columns ... */}
+       
       </div>
     </div>
   );

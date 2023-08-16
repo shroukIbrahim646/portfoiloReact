@@ -160,38 +160,71 @@ body {
   # About
   --------------------------------------------------------------*/
   /* Add this CSS to your styles.css file or your component's styles */
-  .about .content h3 {
-    font-weight: 700;
-    font-size: 26px;
-    color: #728394;
-  }
+.profile-section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.profile-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img img {
+  max-width: 100%;
+  height: 500px;
+  width: 300px;
+
+  border: 4px solid #ca6363;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info {
+  padding-top: 20px;
+}
+
+.profile-info h3 {
+  font-size: 24px;
+  color: #333;
+ text-align: center;
+ 
+
+}
+
+.profile-info p {
+  font-size: 16px;
+  color: #777;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.profile-info ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+.profile-info ul li {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
   
-  .about .content ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .about .content ul li {
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-  }
-  
-  .about .content ul strong {
-    margin-right: 10px;
-  }
-  
-  .about .content ul i {
-    font-size: 16px;
-    margin-right: 5px;
-    color: #0563bb;
-    line-height: 0;
-  }
-  
-  .about .content p:last-child {
-    margin-bottom: 0;
-  }
-  
+}
+
+.profile-info ul li strong {
+  color: #333;
+}
+
+.profile-info .h4 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+ 
+}
+.name{
+  text-align: center;
+}
 
   /*--------------------------------------------------------------
   # Facts
